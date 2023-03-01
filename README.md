@@ -1,27 +1,37 @@
-# DesktopPomodoroTimer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+# Pomodoro Timer Desktop
 
-## Development server
+This is an Angular/Electron application that implements the Pomodoro technique, a time management method that uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. During the work intervals, the application plays a playlist to help the user stay focused, and an alarm sounds during the breaks to signal the change in state.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+In addition to the basic Pomodoro functionality, the application allows users to adjust the volume of the playlist, reset the timer, pause/resume the timer, and customize the duration of the work and break intervals to suit their individual needs.
 
-## Code scaffolding
+This application is a useful tool for anyone looking to improve their productivity and manage their time more effectively. The combination of Angular and Electron allows it to run on multiple platforms, including desktop and mobile devices. Give it a try and see how it can help you stay focused and get more done!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To install and run the Pomodoro Timer application, please follow these steps:
 
-## Running unit tests
+- Ensure that you have Node.js and npm (Node Package Manager) installed on your system. You can download the latest version of Node.js from https://nodejs.org/en/download/.
+- Install the required dependencies using the command: ```npm install```
+- you can start the application using the command: ```npm run start:electron```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    
+## Features
 
-## Running end-to-end tests
+- Start/pause timer
+- Reset timer
+- Up/down sound volume
+- On/off sound
+- Set up time of the timer
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Improvements
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Improve UI design
+- Store the custom configuration of the timer
+- Display the total time in concentration state
+- Write tests
+- Refactor code
+- Add i18n
+- Create .exe config
